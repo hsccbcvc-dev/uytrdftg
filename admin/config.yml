@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: hsccbcvc-dev/uytrdftg  # Ye line sabse zaroori hai
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "videos"
+    label: "Videos"
+    folder: "_videos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Video Title", name: "title", widget: "string"}
+      - {label: "Video Link (MP4/Youtube)", name: "video_url", widget: "string"}
+      - {label: "Poster Image", name: "thumbnail", widget: "image"}
