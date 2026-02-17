@@ -1,13 +1,10 @@
-# CloudCannon Configuration
 collections_config:
   videos:
     name: "Movies List"
     path: "_data/videos.json"
+    parser: "json"
     icon: "movie"
-    allow_create: true
-    allow_delete: true
 
-# Form ke Boxes yahan se bante hain
 _inputs:
   title:
     type: text
