@@ -8,7 +8,7 @@ collections_config:
 _inputs:
   title:
     type: text
-    label: "Movie ka Naam"
+    label: "Movie Ka Naam"
   video_url:
     type: text
-    label: "Download Link (URL)"
+    label: "Download Link"
